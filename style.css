@@ -377,6 +377,10 @@
 /* Landscape phones and down */
 @media only screen and (max-width: 480px) {
 
+  .album-card {
+    height:  clamp(200px, calc(calc(100vmin - 2rem) / 2), 600px) !important ;
+  }
+
   .mobile-hidden{
     display: none !important;
   }
@@ -528,7 +532,7 @@
   }
 
   .wrapper{
-    top: clamp(30px, 20vh, 10vh);
+    top: 60px;
     height: calc(100vh - clamp(30px, 20vh, 10vh));
     perspective: 100px;
     transform-style: preserve-3d;
