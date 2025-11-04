@@ -125,11 +125,10 @@ h1 {
 
 .album-card:hover > .album-card-title, .album-card.active > .album-card-title {
   display: block;
-  transition: color cubic-bezier(0.24, 0.59, 1, 1) 3s;
   text-align: center;
   transform: translate(-50%, -50%);
   left:50%;
-  color: #c1c1c1;
+  color: #e7e7e7;
 }
 
 .album-card-title {
