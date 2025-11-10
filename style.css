@@ -9,10 +9,10 @@
     --greyblue: #4d646a;
     --white: #e9e9e9;
 
-    --hamburger-width: max(25px, calc(10vh - 20px));
+    --hamburger-width: 40px;
     --hamburger-height: calc(var(--hamburger-total-height)/9);
-    --hamburger-gap: calc((var(--hamburger-total-height) - (3 * var(--hamburger-height))) / 2);
-    --hamburger-total-height: max(25px, calc(6vh - 30px));
+    --hamburger-gap: calc(var(--hamburger-height) * 2);
+    --hamburger-total-height: 40px;
     --nav-anim-timing: .5s ease-in-out;
     --font-family-a: "Urbanist", sans-serif;
     --font-family-b: "New Amsterdam", sans-serif;
@@ -471,7 +471,7 @@
   }
 
   .nav-links-dropdown-button{
-    --x-width: calc(var(--hamburger-total-height) * 1.4);
+    --x-width: calc(var(--hamburger-total-height) * 1.1);
     transform-origin: center center;
     transform: translateX(-25%);
     z-index: 1005;
