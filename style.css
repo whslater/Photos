@@ -45,8 +45,6 @@
   .wrapper{
     display: flex;
     position: relative;
-    width: auto;
-    height: 100vh;
     perspective: 100px;
     transform-style: preserve-3d;
     overflow-x: hidden;
@@ -557,11 +555,6 @@
 
   .wrapper{
     top: 60px;
-    height: calc(100vh - clamp(30px, 20vh, 10vh));
-    perspective: 100px;
-    transform-style: preserve-3d;
-    overflow-x: hidden;
-    overflow-y: scroll;
   }
 
   .nav-container {
@@ -888,7 +881,6 @@
 
   .wrapper{
     top: clamp(40px, 5vh, 3vh);
-    height: calc(100vh - clamp(40px, 3vh, 3vh));
   }
 
   .nav-container {
@@ -1132,7 +1124,6 @@
 
   .wrapper{
     top: clamp(60px, 10vh, 80px);
-    height: calc(100vh - clamp(60px, 10vh, 80px));
   }
   .nav-container {
     width: 100%;
@@ -1380,7 +1371,6 @@
 
   .wrapper{
     top: clamp(80px, 200px, 3vh);
-    height: calc(100% - clamp(80px, 200px, 3vh));
   }
   .nav-container {
     width: 100%;
