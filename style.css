@@ -8,7 +8,7 @@
     --lightgrey: #6c7a75;
     --greyblue: #4d646a;
     --white: #e9e9e9;
-
+    --logo: url("Assets/Images/Logo.JPG");
     --hamburger-width: 40px;
     --hamburger-height: calc(var(--hamburger-total-height)/9);
     --hamburger-gap: calc(var(--hamburger-height) * 2);
@@ -568,7 +568,7 @@
     width: auto;
     height: calc(100% - 20px);
     aspect-ratio: 1 / 1;
-    background-image: url("Assets/Images/SchwenzerLogo1.png");
+    background-image: var(--logo);
     background-size: contain;
     background-position: center;
     background-origin: content-box;
@@ -895,7 +895,7 @@
     height: auto;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    background-image: url("Assets/Images/SchwenzerLogo1.png");
+    background-image: var(--logo);
     background-size: contain;
     background-position: center;
     background-origin: content-box;
@@ -1137,7 +1137,7 @@
     width: 4vw;
     height: auto;
     aspect-ratio: 1 / 1;
-    background-image: url("Assets/Images/SchwenzerLogo1.png");
+    background-image: var(--logo);
     background-size: contain;
     background-position: center;
     background-origin: content-box;
@@ -1386,7 +1386,7 @@
     min-width: 70px;
     max-height: 150px;
     max-width: 150px;
-    background-image: url("Assets/Images/SchwenzerLogo1.png");
+    background-image: var(--logo);
     background-size: contain;
     background-position: center;
     background-origin: content-box;

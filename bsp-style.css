@@ -1,5 +1,5 @@
 :root{
-  --logo: url('Assets/Images/SchwenzerLogo1.png');
+  --logo: url("Assets/Images/Logo.JPG");
   --instagram-icon: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/256px-Instagram_icon.png?20200512141346");
   --home-icon: url("https://upload.wikimedia.org/wikipedia/commons/3/34/Home-icon.svg");
 }
