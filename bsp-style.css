@@ -82,7 +82,7 @@ h1 {
   text-align: center;
   cursor: pointer;
   scale: 1;
-  transition: all 0.6s;
+  transition: all 0.6s, width 0s, height 0s;
   overflow: hidden;
 }
 
