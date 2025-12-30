@@ -1,6 +1,12 @@
 [
-
-    
+     {
+        "title": "Christmas Classic",
+        "thumb": "cc-2025.jpg",
+        "desc": "Pictures from the 2025 Christmas Classic!",
+        "links": [
+        { "label": "Full Album on Google Photos", "url": "https://photos.app.goo.gl/obDcLTuT96RXGWd17" }
+        ]
+    },   
     {
         "title": "Beighton Bombers Vs Don Valley Vikings",
         "thumb": "Assets/Images/bb-dvv-15-11-25.jpg",
