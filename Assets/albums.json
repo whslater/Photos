@@ -1,4 +1,12 @@
 [   
+	{
+        "title": "Sheffield	Ice Tigers Vs Hull Knights",
+        "thumb": "Assets/Images/sit-hk-b-2025.jpg",
+        "desc": "Pictures from Sheffield Ice Tigers Vs Hull Knights.",
+        "links": [
+        { "label": "Full Album on Google Photos", "url": "https://photos.app.goo.gl/RfdYPYqDdP25vgeq7" }
+        ]
+    },	
     {
         "title": "Christmas Classic",
         "thumb": "Assets/Images/cc-2025.jpg",
