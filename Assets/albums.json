@@ -1,5 +1,13 @@
 [    
     {
+        "title": "The UK Draft Tournament 2026",
+        "thumb": "Assets/Images/tudt-2026.jpg",
+        "desc": "Pictures from Draft night and the finals!",
+        "links": [
+        { "label": "Full Album on Google Drive", "url": "https://drive.google.com/drive/folders/1jat9AdQbhBqERp762dNdQvh8EOS8FpvK?usp=sharing" }
+        ]
+    },
+    {
         "title": "Sheffield Ice Tigers Vs Leeds Warriors B",
         "thumb": "Assets/Images/sit-lw-away-1.jpg",
         "desc": "Pictures from the Sheffield Ice Tigers Vs Leeds Warriors B Team - Away Game",
