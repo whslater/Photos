@@ -73,6 +73,21 @@
     background-color: #292929;
   }
 
+  #buymeacoffee{
+    max-width: 150px;
+    max-height: 40px;
+    width: 20vw;
+    height: calc(100% - 20px);
+    background-image: url("Assets/Images/buy-me-a-coffee.png") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+  }
+
   a{
     box-sizing: content-box;
     z-index: 1000;
@@ -923,6 +938,12 @@
       height:100%;
       width: 100%;
       cursor: pointer;
+  }
+
+  #buymeacoffee{
+    top: 10px;
+    height: calc(100% - 20px);
+    right:10px;
   }
 
   .nav-links {
